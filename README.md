@@ -2,38 +2,6 @@
 
 Este é um template estruturado para projetos de Machine Learning em Python, seguindo as melhores práticas da indústria.
 
-## Estrutura do Projeto
-
-\`\`\`
-ml-project-template/
-├── data/
-│   ├── raw/                    # Dados brutos, imutáveis
-│   ├── interim/                # Dados intermediários transformados
-│   ├── processed/              # Dados finais, prontos para modelagem
-│   └── external/               # Dados de fontes externas
-├── models/                     # Modelos treinados e serializados
-├── notebooks/                  # Jupyter notebooks para exploração
-│   ├── exploratory/            # Análise exploratória
-│   ├── modeling/               # Experimentos de modelagem
-│   └── reporting/              # Relatórios finais
-├── references/                 # Dicionários de dados, manuais, etc.
-├── reports/                    # Análises geradas como HTML, PDF, LaTeX, etc.
-│   └── figures/                # Gráficos e figuras geradas
-├── src/                        # Código fonte do projeto
-│   ├── data/                   # Scripts para download/geração de dados
-│   ├── features/               # Scripts para transformar dados em features
-│   ├── models/                 # Scripts para treinar e fazer predições
-│   ├── visualization/          # Scripts para criar visualizações
-│   └── utils/                  # Utilitários e funções auxiliares
-├── tests/                      # Testes unitários
-├── requirements.txt            # Dependências do projeto
-├── setup.py                    # Torna o projeto pip instalável
-├── Makefile                    # Comandos úteis para o projeto
-├── .env.example                # Exemplo de variáveis de ambiente
-├── .gitignore                  # Arquivos a serem ignorados pelo Git
-└── config.yaml                 # Arquivo de configuração
-\`\`\`
-
 ## Instalação
 
 1. Clone o repositório
