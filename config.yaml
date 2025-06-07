@@ -1,0 +1,30 @@
+# Configurações do projeto
+project:
+  name: "ml-project-template"
+  version: "0.1.0"
+  description: "Template para projetos de Machine Learning"
+
+# Configurações de dados
+data:
+  raw_path: "data/raw"
+  interim_path: "data/interim"
+  processed_path: "data/processed"
+  external_path: "data/external"
+
+# Configurações de modelo
+model:
+  random_state: 42
+  test_size: 0.2
+  validation_size: 0.2
+  models_path: "models"
+
+# Configurações de logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Configurações de visualização
+visualization:
+  figures_path: "reports/figures"
+  dpi: 300
+  style: "seaborn"
